@@ -19,7 +19,7 @@ class Dog
   end
 
   def self.print_all
-    self.print_all.each { | name | puts name }
+    print_all.each { | name | puts name }
     puts
   end
 
