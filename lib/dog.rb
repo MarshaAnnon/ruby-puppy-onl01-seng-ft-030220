@@ -1,1 +1,29 @@
-# Add your code here
+require "pry"
+
+class Dog
+  @@all = []
+
+  attr_accessor :name
+
+  def initialize(name)
+    @name = name
+    @@all << self
+  end
+
+  def self.all
+    @@all
+  end
+
+  def self.clear_all
+    @@all.clear
+  end
+
+  def self.print_all
+    self.print_all.each do | name |
+      puts "[name]"
+    end
+    name
+  end
+
+
+end
