@@ -19,7 +19,7 @@ class Dog
   end
 
   def self.print_all
-    @@all.each { | dog.name | puts name }
+    @@all.dog.name.each { | name | puts name }
   end
 
 
